@@ -1,10 +1,10 @@
 # Stroop Task Experiment
 
-A configurable Stroop task implementation in MATLAB using Psychtoolbox, designed for cognitive research with TTL pulse support for EEG/sEEG recording.
+A configurable Stroop task implementation in MATLAB using Psychtoolbox, designed for cognitive research with TTL pulse support for MEA/EEG/sEEG recording.
 
 ## Overview
 
-This Stroop task presents participants with color words (Red, Green, Blue, etc.) displayed in congruent, incongruent, or neutral colors. The experiment measures electrophysiological response across different conflict conditions to study cognitive control and interference. Reaction time can also be infered through the audio recording
+This Stroop task presents participants with color words (Red, Green, Blue, etc.) displayed in congruent, incongruent, or neutral colors. The experiment is designed to collect  electrophysiological response across different conflict conditions to study cognitive control and interference. Reaction time can also be infered through the audio recording, but is not the focus. 
 
 ## Requirements
 
@@ -112,11 +112,6 @@ out = struct(
 | Stimulus onset | 255 | Word appears |
 | Response window end | 99 | Trial complete |
 | Block end | 254 | Experiment finished |
-
-## Colors and Words
-
-**Words**: Red, Green, Blue, Brown, Pink, White, Purple, Yellow, XXXX (neutral)
-**Colors**: Corresponding RGB values for the first 8 words
 
 ## Contact
 
